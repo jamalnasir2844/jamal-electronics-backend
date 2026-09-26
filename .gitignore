@@ -22,3 +22,56 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# 
+# ==========================================
+# Environment / Secret Files
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+client/.env
+client/.env.*
+!client/.env.example
+
+server/.env
+server/.env.*
+!server/.env.example
+
+
+# ==========================================
+# Secret / Key Files
+# ==========================================
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cert
+
+serviceAccountKey.json
+firebase-adminsdk*.json
+firebase-service-account.json
+
+
+# ==========================================
+# Build Files
+# ==========================================
+
+client/dist/
+client/dist-ssr/
+
+server/dist/
+server/build/
+
+
+# ==========================================
+# OS / Temporary Files
+# ==========================================
+
+.DS_Store
+Thumbs.db
